@@ -20,7 +20,7 @@
       "name": "operMgmt",
       "component": "/operMgmt/EnrollMgr",
       "meta": {
-        "icon": "List",
+        "icon": "Tools",
         "title": "运营管理",
         "isLink": "",
         "isHide": false,
@@ -34,7 +34,7 @@
           "name": "EnrollMgr",
           "component": "/operMgmt/EnrollMgmt/index",
           "meta": {
-            "icon": "Menu",
+            "icon": "edit",
             "title": "报名管理",
             "isLink": "",
             "isHide": false,
@@ -48,7 +48,7 @@
               "name": "eventMgmt",
               "component": "/operMgmt/eventMgmt/index",
               "meta": {
-                "icon": "Menu",
+                "icon": "Position",
                 "title": "活动管理",
                 "isLink": "",
                 "isHide": false,
@@ -76,7 +76,7 @@
               "name": "regOrder",
               "component": "/operMgmt/regOrder/index",
               "meta": {
-                "icon": "Menu",
+                "icon": "Document",
                 "title": "报名订单",
                 "isLink": "",
                 "isHide": false,
@@ -90,7 +90,7 @@
               "name": "couponMgmt",
               "component": "/operMgmt/couponMgmt/index",
               "meta": {
-                "icon": "Menu",
+                "icon": "Tickets",
                 "title": "券码管理",
                 "isLink": "",
                 "isHide": false,
@@ -104,7 +104,7 @@
               "name": "eventShare",
               "component": "/operMgmt/eventShare/index",
               "meta": {
-                "icon": "Menu",
+                "icon": "Share",
                 "title": "活动全局分享",
                 "isLink": "",
                 "isHide": false,
@@ -118,7 +118,7 @@
               "name": "queryRefund",
               "component": "/operMgmt/queryRefund/index",
               "meta": {
-                "icon": "Menu",
+                "icon": "Refresh",
                 "title": "退款管理",
                 "isLink": "",
                 "isHide": false,
@@ -134,7 +134,7 @@
           "name": "souvenirs",
           "component": "/operMgmt/souvenirs/index",
           "meta": {
-            "icon": "Menu",
+            "icon": "Star",
             "title": "纪念品",
             "isLink": "",
             "isHide": false,
@@ -162,7 +162,7 @@
           "name": "topicMgmt",
           "component": "/operMgmt/topicMgmt/index",
           "meta": {
-            "icon": "Menu",
+            "icon": "Present",
             "title": "抽奖活动",
             "isLink": "",
             "isHide": false,
@@ -176,7 +176,7 @@
           "name": "EnrollMgr",
           "component": "/operMgmt/EnrollMgr/index",
           "meta": {
-            "icon": "Menu",
+            "icon": "Money",
             "title": "专题管理",
             "isLink": "",
             "isHide": false,
@@ -191,7 +191,7 @@
       "path": "/scriptMgmt",
       "name": "scriptMgmt",
       "meta": {
-        "icon": "HomeFilled",
+        "icon": "Notebook",
         "title": "剧本管理",
         "isLink": "",
         "isHide": false,
@@ -205,7 +205,7 @@
           "name": "distMgmt",
           "component": "/scriptMgmt/distMgmt/index",
           "meta": {
-            "icon": "Menu",
+            "icon": "Box",
             "title": "发行管理",
             "isLink": "",
             "isHide": false,
@@ -219,7 +219,7 @@
           "name": "basicMgmt",
           "component": "/scriptMgmt/basicMgmt/index",
           "meta": {
-            "icon": "Menu",
+            "icon": "Aim",
             "title": "基础管理",
             "isLink": "",
             "isHide": false,
@@ -234,7 +234,7 @@
       "path": "/sysSettings",
       "name": "sysSettings",
       "meta": {
-        "icon": "HomeFilled",
+        "icon": "Setting",
         "title": "系统设置",
         "isLink": "",
         "isHide": false,
@@ -248,7 +248,7 @@
           "name": "platSettings",
           "component": "/sysSettings/platSettings/index",
           "meta": {
-            "icon": "Menu",
+            "icon": "Platform",
             "title": "平台设置",
             "isLink": "",
             "isHide": false,
@@ -276,7 +276,7 @@
           "name": "SysSettings",
           "component": "/sysSettings/SysSettings/index",
           "meta": {
-            "icon": "Menu",
+            "icon": "Setting",
             "title": "系统设置",
             "isLink": "",
             "isHide": false,
