@@ -1,0 +1,292 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "path": "/home/index",
+      "name": "home",
+      "component": "/home/index",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "首页",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": true,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/operMgmt",
+      "name": "operMgmt",
+      "component": "/operMgmt/EnrollMgr",
+      "meta": {
+        "icon": "List",
+        "title": "运营管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": true,
+        "isKeepAlive": true
+      },
+      "children": [
+        {
+          "path": "/operMgmt/EnrollMgmt",
+          "name": "EnrollMgr",
+          "component": "/operMgmt/EnrollMgmt/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "报名管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          },
+          "children": [
+            {
+              "path": "/operMgmt/eventMgmt",
+              "name": "eventMgmt",
+              "component": "/operMgmt/eventMgmt/index",
+              "meta": {
+                "icon": "Menu",
+                "title": "活动管理",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+              }
+            },
+            {
+              "path": "/operMgmt/classMgmt",
+              "name": "classMgmt",
+              "component": "/operMgmt/classMgmt/index",
+              "meta": {
+                "icon": "Menu",
+                "title": "分类管理",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+              }
+            },
+            {
+              "path": "/operMgmt/regOrder",
+              "name": "regOrder",
+              "component": "/operMgmt/regOrder/index",
+              "meta": {
+                "icon": "Menu",
+                "title": "报名订单",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+              }
+            },
+            {
+              "path": "/operMgmt/couponMgmt",
+              "name": "couponMgmt",
+              "component": "/operMgmt/couponMgmt/index",
+              "meta": {
+                "icon": "Menu",
+                "title": "券码管理",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+              }
+            },
+            {
+              "path": "/operMgmt/eventShare",
+              "name": "eventShare",
+              "component": "/operMgmt/eventShare/index",
+              "meta": {
+                "icon": "Menu",
+                "title": "活动全局分享",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+              }
+            },
+            {
+              "path": "/operMgmt/queryRefund",
+              "name": "queryRefund",
+              "component": "/operMgmt/queryRefund/index",
+              "meta": {
+                "icon": "Menu",
+                "title": "退款管理",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+              }
+            }
+          ]
+        },
+        {
+          "path": "/operMgmt/souvenirs",
+          "name": "souvenirs",
+          "component": "/operMgmt/souvenirs/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "纪念品",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/operMgmt/wcConfigure",
+          "name": "wcConfigure",
+          "component": "/operMgmt/wcConfigure/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "小程序管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/operMgmt/topicMgmt",
+          "name": "topicMgmt",
+          "component": "/operMgmt/topicMgmt/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "抽奖活动",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/operMgmt/EnrollMgr",
+          "name": "EnrollMgr",
+          "component": "/operMgmt/EnrollMgr/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "专题管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "/scriptMgmt",
+      "name": "scriptMgmt",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "剧本管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": true,
+        "isKeepAlive": true
+      },
+      "children": [
+        {
+          "path": "/scriptMgmt/distMgmt",
+          "name": "distMgmt",
+          "component": "/scriptMgmt/distMgmt/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "发行管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/scriptMgmt/basicMgmt",
+          "name": "basicMgmt",
+          "component": "/scriptMgmt/basicMgmt/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "基础管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "/sysSettings",
+      "name": "sysSettings",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "系统设置",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": true,
+        "isKeepAlive": true
+      },
+      "children": [
+        {
+          "path": "/sysSettings/platSettings",
+          "name": "platSettings",
+          "component": "/sysSettings/platSettings/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "平台设置",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/sysSettings/wcMgmt",
+          "name": "wcMgmt",
+          "component": "/sysSettings/wcMgmt/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "小程序管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/sysSettings/SysSettings",
+          "name": "SysSettings",
+          "component": "/sysSettings/SysSettings/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "系统设置",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        }
+      ]
+    }
+  ],
+  "msg": "成功"
+}
